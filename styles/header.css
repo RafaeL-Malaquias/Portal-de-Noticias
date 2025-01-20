@@ -2,9 +2,16 @@
 /**/
 
 #primary {
-    border: 1px solid red;
     /* pegando apenas em cima e embaixo*/ 
     padding-block:  20px;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+
 
     /* nesting css  novo metodo em css*/
     div:nth-child(2) {
@@ -14,4 +21,13 @@
     div:nth-child(3) {
         justify-self: end;
     }
+}
+
+
+
+#secondary {
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+    justify-content: space-between;
 }
