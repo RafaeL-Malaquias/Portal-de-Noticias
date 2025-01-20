@@ -30,6 +30,11 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color-primary);
 }
+.container {
+    max-width: 1280px;
+    margin-inline: auto;
+   padding-inline: 32px;
+}
 
 h1, h2, h3 {
     font: inherit;
@@ -42,4 +47,14 @@ a {
 
 a:hover{
     color: var(--brand-color-light);
+}
+
+/* ulility-first*/
+/* vai usar apenas um grid*/
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
