@@ -9,7 +9,7 @@
 :root {
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
-    
+
     --bg-color: #0F172A;
     --stroke-color: #1E293B;
 
@@ -58,3 +58,5 @@ img {
 main {
     margin-block: 40px;
 }
+
+.content-tag 
