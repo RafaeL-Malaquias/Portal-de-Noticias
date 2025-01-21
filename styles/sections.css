@@ -86,11 +86,39 @@ section header {
 
     &>div {
         grid-template-columns: repeat(4, 300px);
+        justify-content: space-between;
     }
 
 
     img{
         height: 160px;
+    }
+
+    figure {
+        position: relative;
+
+        .content-tag{
+            position: absolute;
+            top:  8px;
+            left: 8px;
+            
+        }
+
+        p {
+            margin-top: 8px;
+           font-weight: 80;
+
+
+
+           /*Limitando texto com com 3 pontinhos*/
+             display: -webkit-box;
+             -webkit-line-clamp: 3;
+             line-clamp: 3;
+             -webkit-box-orient: vertical;
+             overflow: hidden;
+             text-overflow: ellipsis;
+           
+        }
     }
 }
 
