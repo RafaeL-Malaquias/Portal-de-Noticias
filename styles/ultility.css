@@ -17,6 +17,10 @@
     gap: 16px;
 }
 
+.gap-32 {
+    gap: 32px;
+}
+
 
 .text-2xl {
     font:  var(--h1);
@@ -29,4 +33,14 @@
 }
 .text-sm {
     font:  var(--text-sm);
+}
+
+ /*Limitando texto com com 3 pontinhos*/
+ .text-short { 
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
 }
