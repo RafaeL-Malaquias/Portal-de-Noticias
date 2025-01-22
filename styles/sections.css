@@ -27,7 +27,7 @@ section header {
 
 
 #featured{
-
+    grid-area: featured;
 /* pegando img dentro featured*/
     img {
             height: 100%;
@@ -82,7 +82,7 @@ section header {
 
 
 #weekly {
-
+    grid-area: weekly;
 
     &>div {
         grid-template-columns: repeat(4, 300px);
@@ -122,3 +122,39 @@ section header {
     }
 }
 
+/* section ai */
+#ai { 
+    grid-area: ai;
+    
+    img {
+        width: 176px; 
+        aspect-ratio: 1/1;
+        object-fit: cover;
+     
+    }
+
+    h3 {
+        margin-block: 8px;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+}
+
+#more{
+    h3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    img {
+        width: 72px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
