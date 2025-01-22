@@ -152,9 +152,14 @@ section header {
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    #ads {
+        margin-bottom: 16px;
+    }
     img {
         width: 72px;
         aspect-ratio: 1/1;
         object-fit: cover;
+
+        
     }
 }
