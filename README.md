@@ -33,3 +33,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Nesse projeto iremos desenvolver um portal de notícias para praticar o nosso conhecimento com o Grid!
 
+[Link](https://rafael-malaquias.github.io/Portal-de-Noticias/) - Para visualizar o projeto.
+
