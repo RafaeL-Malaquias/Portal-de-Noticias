@@ -13,7 +13,7 @@ Projeto de um Portal de notícias desenvolvido durante as aulas de Grid na Rocke
 </p>
 
 <p align="center">
-  <img alt="License" src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/76e3d7ac5802f4a5b28aadd49c048d456deaebfd"
+  <img alt="License" src="assets/images/img-figma">
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=0F172A&labelColor=1D4ED8">
